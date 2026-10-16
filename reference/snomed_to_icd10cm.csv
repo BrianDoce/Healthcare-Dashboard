@@ -1,0 +1,210 @@
+snomed_code,icd10cm_code,match,confidence,note
+66383009,K05.10,N,medium,Chronic plaque-induced gingivitis assumed as default for unspecified gingivitis
+444814009,J01.90,B,medium,Viral agent (B97.-) not captured
+18718003,K06.9,E,high,
+195662009,J02.8,E,medium,Viral agent (B97.-) not captured
+109570002,K02.9,B,high,
+10509002,J20.9,E,high,
+271737000,D64.9,E,high,
+59621000,I10,E,high,
+40055000,J32.9,E,high,
+414545008,I25.9,E,high,
+427898007,K08.89,B,low,Dental infection has no exact ICD-10-CM entry
+237602007,E88.810,E,high,
+125605004,T14.8XXA,B,medium,Fracture site unspecified; initial encounter assumed
+43878008,J02.0,E,high,
+312608009,T14.8XXA,B,low,Laceration site unspecified; initial encounter assumed
+37320007,K08.9,B,medium,Complete vs partial loss not specified
+65363002,H66.90,E,high,
+307426000,N30.00,E,high,
+44465007,S93.409A,N,medium,Laterality unspecified; initial encounter assumed
+55822004,E78.5,E,high,
+127013003,E11.29,N,medium,Type 2 assumed (Synthea); other diabetic kidney complication
+840539006,U07.1,E,high,
+431855005,N18.1,E,high,
+110030002,S06.0XAA,N,medium,LOC status unknown; initial encounter assumed
+90781000119102,E11.29,E,high,
+68496003,K63.5,E,high,
+44054006,E11.9,E,high,
+302870006,E78.1,E,high,
+431856006,N18.2,E,high,
+157141000119108,E11.29,B,medium,
+75498004,J01.90,B,medium,Bacterial agent (B95/B96) not captured
+62106007,S06.0X0A,E,high,
+36971009,J32.9,B,medium,
+239873007,M17.9,E,high,
+433144002,N18.30,E,high,
+39898005,G47.9,E,high,
+19169002,O03.9,B,medium,Spontaneous abortion without complication; trimester not captured
+70704007,S63.509A,N,medium,Laterality unspecified; initial encounter assumed
+124171000119105,G43.719,E,high,
+6525002,F19.20,B,medium,Substance unspecified; dependence uncomplicated assumed
+197927001,N39.0,B,high,
+90460009,S19.9XXA,E,high,
+39848009,S13.4XXA,E,high,Whiplash indexes to cervical sprain
+196416002,K01.1,E,high,
+1149222004,T50.901A,B,low,Substance unspecified; accidental assumed
+64859006,M81.0,B,medium,Age-related osteoporosis assumed
+80394007,R73.9,E,high,
+65966004,S52.90XA,E,high,
+195967001,J45.909,E,high,
+128613002,G40.909,E,high,
+91302008,A41.9,E,high,
+156073000,O03.9,E,high,
+78275009,G47.33,E,high,
+58150001,S42.009A,N,medium,Laterality unspecified
+61804006,M27.3,E,high,
+431857002,N18.4,E,high,
+370247008,S01.81XA,E,medium,
+88805009,I50.9,B,medium,Chronic type (systolic/diastolic) not captured
+283371005,S51.819A,N,medium,Laterality unspecified
+284551006,S91.319A,N,medium,Laterality unspecified
+203646004,M41.129,E,high,
+233678006,J45.909,B,medium,Childhood onset not captured
+284549007,S61.419A,N,medium,Laterality unspecified
+16114001,S82.899A,B,low,Ankle fracture site/type unspecified
+263102004,S62.90XA,B,low,Wrist fracture type/site not specified; unspecified wrist/hand fracture assumed
+233604007,J18.9,E,high,
+198992004,O15.00,E,high,
+401314000,I21.4,E,high,
+22298006,I21.9,E,high,
+283385000,S71.119A,N,medium,Laterality unspecified
+203082005,M79.7,E,high,
+125601008,S89.90XA,B,low,Knee injury type unspecified
+713197008,K62.1,E,high,
+84757009,G40.909,E,high,
+368581000119106,E11.40,E,high,
+24079001,L20.9,E,high,
+403190006,T30.0,B,low,Burn degree/site not captured
+239872002,M16.9,E,high,
+26929004,G30.9,E,high,
+446096008,J30.89,E,medium,
+201834006,M19.049,N,medium,Laterality unspecified
+398254007,O14.90,E,high,
+254837009,C50.919,N,medium,Laterality and sex assumed unspecified/female
+401303003,I21.3,E,high,
+87433001,J43.9,E,high,
+73430006,G47.30,E,high,
+389087006,R09.02,E,high,
+62564004,S06.0X9A,B,medium,LOC duration unspecified
+232353008,J30.89,B,medium,
+46177005,N18.6,E,high,
+192127007,F90.0,E,medium,
+241929008,T78.40XA,B,low,Allergen/reaction type not specified; unspecified allergy assumed
+33737001,S22.39XA,N,medium,Side unspecified
+307731004,S46.019A,N,medium,Laterality unspecified
+1255252008,K08.89,B,low,No exact equivalent
+35999006,O02.0,E,high,
+46752004,M27.0,E,medium,
+126906006,D49.59,E,medium,Behavior unspecified
+92691004,D07.5,E,high,
+185086009,J44.9,B,medium,
+443165006,M80.00XA,B,low,Fracture site not specified; age-related osteoporosis with pathological fracture assumed
+359817006,S72.009A,N,medium,Side unspecified
+74400008,K37,E,high,
+85116003,O03.9,B,medium,Second trimester not captured
+254637007,C34.90,N,medium,Lung lobe and laterality unspecified
+424132000,C34.90,B,medium,Stage/histology not captured (ICD-10-CM codes site not stage)
+367498001,J30.2,E,high,
+65710008,J96.00,E,high,
+76571007,R65.21,E,high,
+283545005,T14.8XXA,B,low,Gunshot wound; external-cause code not assigned
+262574004,T14.8XXA,B,low,Gunshot wound; external-cause code not assigned
+49436004,I48.91,E,high,
+427419006,G43.709,B,medium,
+132281000119108,I82.409,N,medium,Vein/laterality unspecified
+444448004,S83.419A,N,medium,Laterality unspecified
+363406005,C18.9,E,high,
+7200002,F10.20,E,high,
+60573004,I35.0,E,high,
+67782005,J80,E,high,
+83664006,E03.4,E,medium,
+370143000,F32.9,B,medium,Episode/severity not captured
+79586000,O00.109,E,high,
+770349000,A41.89,B,low,Viral sepsis has no dedicated ICD-10-CM code; other specified sepsis used (add B97.-)
+706870000,I26.99,N,medium,Without acute cor pulmonale assumed
+230690007,I63.9,E,high,
+30832001,S76.119A,N,low,Patellar tendon coded under quadriceps tendon; laterality unspecified
+267253006,O35.10X0,E,medium,
+40275004,L25.9,E,high,
+230265002,G30.0,E,high,
+444470001,S83.519A,N,medium,Laterality unspecified
+239720000,S83.209A,E,medium,
+127294003,S06.9XAA,B,low,Traumatic vs nontraumatic injury not distinguished; unspecified intracranial injury used
+109838007,C18.8,E,high,
+48724000,I34.0,E,high,
+81629009,S03.00XA,E,high,
+67787004,Q38.1,E,high,
+95417003,M79.7,E,high,
+47693006,K35.32,B,medium,
+86406008,B20,B,medium,Symptomatic vs asymptomatic (Z21) not distinguished
+93143009,C95.90,E,high,
+37849005,Q51.9,E,high,
+263172003,S02.609A,E,medium,
+93761005,C18.9,E,high,
+69896004,M06.9,E,high,
+262521009,,X,high,Spinal level required by ICD-10-CM is not in the SNOMED concept
+27942005,R57.9,E,high,
+56786000,I37.0,E,high,
+97331000119101,E11.311,E,medium,
+60234000,I35.1,E,high,
+6072007,K62.5,E,high,
+213150003,T86.12,B,medium,SNOMED covers failure and rejection; T86.11 (rejection) not assigned
+403192003,T30.0,B,low,Burn degree/site not captured
+403191005,T30.0,B,low,Burn degree/site not captured
+235919008,K80.20,E,high,
+65275009,K81.0,E,high,
+128188000,G80.9,E,high,
+235595009,K21.9,E,high,
+84114007,I50.9,E,high,
+4557003,I20.0,E,medium,Preinfarction syndrome = unstable angina
+94503003,C79.82,E,medium,
+45816000,N12,E,medium,
+67811000119102,C34.90,B,medium,Small cell histology and stage not captured
+609496007,O26.90,B,low,Generic pregnancy complication; unspecified trimester and condition
+254632001,C34.90,N,medium,Small cell histology not captured
+15724005,,X,high,Spinal level required by ICD-10-CM is not in the SNOMED concept
+40095003,S37.009A,E,medium,
+11625007,M27.0,E,medium,
+234466008,D68.9,B,medium,
+79619009,I05.0,E,medium,ICD-10-CM index default is rheumatic
+110359009,F79,E,high,
+109989006,C90.00,E,high,
+698754002,G83.9,B,medium,
+1734006,,X,high,Spinal level required by ICD-10-CM is not in the SNOMED concept
+53827007,K11.7,E,high,
+86175003,S26.90XA,E,medium,
+94260004,C78.5,E,high,
+204949001,Q61.4,E,high,
+36923009,F32.9,B,medium,
+111287006,I07.1,E,medium,ICD-10-CM index default is rheumatic
+128302006,B18.2,E,high,
+414667000,Q05.9,B,medium,
+1163220007,L89.92,E,medium,Site unspecified
+68566005,N39.0,E,high,
+230745008,G91.9,E,high,
+91434003,I37.1,E,high,
+47505003,F43.10,E,high,
+312157006,J98.51,E,medium,
+302297009,Q66.90,E,high,
+373587001,Q07.00,B,low,Type II variant (with spina bifida/hydrocephalus) not captured
+157265008,S73.006A,N,medium,Laterality unspecified
+200936003,M32.9,B,low,Discoid vs systemic not distinguished
+15802004,G24.9,E,high,
+127295002,S06.9XAA,N,medium,
+61977001,B18.1,E,high,
+267064002,R33.9,E,high,
+76916001,Q76.0,E,high,
+91861009,C92.00,E,high,
+707577004,N97.8,B,low,Infertility due to CF has no exact code; infertility of other origin used
+190905008,E84.9,E,high,
+409089005,D70.9,E,medium,Add R50.81 for fever
+49915006,I07.0,E,medium,ICD-10-CM index default is rheumatic
+62479008,B20,E,high,
+183996000,Z30.2,S,high,
+399261000,Z95.1,S,high,
+698306007,Z76.82,S,high,
+698303004,Z76.82,S,high,
+274531002,R93.1,E,high,
+1231000119100,Z95.2,S,medium,Biologic vs mechanical valve not specified
+161679004,Z96.60,S,medium,Joint not specified

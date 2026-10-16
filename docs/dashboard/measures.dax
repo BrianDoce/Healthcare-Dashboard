@@ -1,0 +1,64 @@
+// =====================================================================================================
+// DAX measures for the Healthcare dashboard.  Create them in a table named "_Measures"
+// (Home > Enter Data, one blank column, then hide the column) or on fact_admissions.
+// Table/column names assume the CSV file names in exports/powerbi/ (see BUILD_GUIDE.md).
+// Check every measure against docs/dashboard/expected_values.md before building visuals on it.
+// =====================================================================================================
+
+// ---------- Utilization (Overview page) ----------
+Admissions = COUNTROWS ( fact_admissions )
+
+Unique Patients = DISTINCTCOUNT ( fact_admissions[patient_id] )
+
+Avg Length of Stay = AVERAGE ( fact_admissions[length_of_stay_days] )
+
+Total Claim Cost = SUM ( fact_admissions[total_claim_cost] )
+
+Avg Cost per Admission = DIVIDE ( [Total Claim Cost], [Admissions] )
+
+// ---------- Readmissions ----------
+// Index admissions exclude stays that ended in in-hospital death (is_index_admission = 0).
+Index Admissions = SUM ( fact_admissions[is_index_admission] )
+
+// readmitted_30d is 1/0 for index admissions and blank otherwise, so SUM ignores the excluded stays.
+Readmissions 30d = SUM ( fact_admissions[readmitted_30d] )
+
+30-Day Readmission Rate = DIVIDE ( [Readmissions 30d], [Index Admissions] )
+
+// Same rate, but blank when the group is too small to be meaningful (avoids a 100% from 1 of 1).
+Rate (min volume) = IF ( [Index Admissions] >= 30, [30-Day Readmission Rate] )
+
+// Benchmark = rate across everything the slicers allow, ignoring the visual's own grouping
+// (the standard "share of total" pattern: ALLSELECTED keeps slicers, drops the category on the axis).
+Overall Readmission Rate = CALCULATE ( [30-Day Readmission Rate], ALLSELECTED () )
+
+// Positive = worse than overall. Format as 0.0 "pts" (multiply by 100 in the format string, or in the measure).
+Rate vs Overall (pts) = ( [30-Day Readmission Rate] - [Overall Readmission Rate] ) * 100
+
+// Share of all readmissions that come from the visual's category (e.g. one ICD-10 chapter).
+Share of Readmissions =
+DIVIDE ( [Readmissions 30d], CALCULATE ( [Readmissions 30d], ALLSELECTED () ) )
+
+// ---------- Chronic conditions (Prevalence page) ----------
+Patients = DISTINCTCOUNT ( dim_patient[patient_id] )
+
+// fact_chronic_conditions is one row per patient x condition, so distinct patients = patients with it.
+Patients With Condition = DISTINCTCOUNT ( fact_chronic_conditions[patient_id] )
+
+// With chronic_group on the visual's axis the filter reaches fact_chronic_conditions but NOT dim_patient
+// (relationships filter from dimension to fact, not back), so [Patients] stays the full denominator for the
+// slicers applied (age band, county, ...). That is exactly what prevalence needs.
+Prevalence % = DIVIDE ( [Patients With Condition], [Patients] )
+
+Patients With 2+ Conditions = CALCULATE ( [Patients], dim_patient[chronic_condition_count] >= 2 )
+
+Comorbidity % = DIVIDE ( [Patients With 2+ Conditions], [Patients] )
+
+// ---------- Data-quality / honesty ----------
+// Share of the selected admissions whose ICD-10 code is BROADER than the original SNOMED concept
+// (detail lost in the hand-built crosswalk). Surface this on the page so viewers know the limits.
+Broader-than-source ICD-10 % =
+DIVIDE (
+    CALCULATE ( [Admissions], fact_admissions[icd10_match] = "B" ),
+    [Admissions]
+)

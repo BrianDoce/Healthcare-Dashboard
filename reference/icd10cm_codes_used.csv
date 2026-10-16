@@ -1,0 +1,180 @@
+icd10cm_code,description
+A41.89,Other specified sepsis
+A41.9,"Sepsis, unspecified organism"
+B18.1,Chronic viral hepatitis B without delta-agent
+B18.2,Chronic viral hepatitis C
+B20,Human immunodeficiency virus [HIV] disease
+C18.8,Malignant neoplasm of overlapping sites of colon
+C18.9,"Malignant neoplasm of colon, unspecified"
+C34.90,Malignant neoplasm of unspecified part of unspecified bronchus or lung
+C50.919,Malignant neoplasm of unspecified site of unspecified female breast
+C78.5,Secondary malignant neoplasm of large intestine and rectum
+C79.82,Secondary malignant neoplasm of genital organs
+C90.00,Multiple myeloma not having achieved remission
+C92.00,"Acute myeloblastic leukemia, not having achieved remission"
+C95.90,"Leukemia, unspecified not having achieved remission"
+D07.5,Carcinoma in situ of prostate
+D49.59,Neoplasm of unspecified behavior of other genitourinary organ
+D64.9,"Anemia, unspecified"
+D68.9,"Coagulation defect, unspecified"
+D70.9,"Neutropenia, unspecified"
+E03.4,Atrophy of thyroid (acquired)
+E11.29,Type 2 diabetes mellitus with other diabetic kidney complication
+E11.311,Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema
+E11.40,"Type 2 diabetes mellitus with diabetic neuropathy, unspecified"
+E11.9,Type 2 diabetes mellitus without complications
+E78.1,Pure hyperglyceridemia
+E78.5,"Hyperlipidemia, unspecified"
+E84.9,"Cystic fibrosis, unspecified"
+E88.810,Metabolic syndrome
+F10.20,"Alcohol dependence, uncomplicated"
+F19.20,"Other psychoactive substance dependence, uncomplicated"
+F32.9,"Major depressive disorder, single episode, unspecified"
+F43.10,"Post-traumatic stress disorder, unspecified"
+F79,Unspecified intellectual disabilities
+F90.0,"Attention-deficit hyperactivity disorder, predominantly inattentive type"
+G24.9,"Dystonia, unspecified"
+G30.0,Alzheimer's disease with early onset
+G30.9,"Alzheimer's disease, unspecified"
+G40.909,"Epilepsy, unspecified, not intractable, without status epilepticus"
+G43.709,"Chronic migraine without aura, not intractable, without status migrainosus"
+G43.719,"Chronic migraine without aura, intractable, without status migrainosus"
+G47.30,"Sleep apnea, unspecified"
+G47.33,Obstructive sleep apnea (adult) (pediatric)
+G47.9,"Sleep disorder, unspecified"
+G80.9,"Cerebral palsy, unspecified"
+G83.9,"Paralytic syndrome, unspecified"
+G91.9,"Hydrocephalus, unspecified"
+H66.90,"Otitis media, unspecified, unspecified ear"
+I05.0,Rheumatic mitral stenosis
+I07.0,Rheumatic tricuspid stenosis
+I07.1,Rheumatic tricuspid insufficiency
+I10,Essential (primary) hypertension
+I20.0,Unstable angina
+I21.3,ST elevation (STEMI) myocardial infarction of unspecified site
+I21.4,Non-ST elevation (NSTEMI) myocardial infarction
+I21.9,"Acute myocardial infarction, unspecified"
+I25.9,"Chronic ischemic heart disease, unspecified"
+I26.99,Other pulmonary embolism without acute cor pulmonale
+I34.0,Nonrheumatic mitral (valve) insufficiency
+I35.0,Nonrheumatic aortic (valve) stenosis
+I35.1,Nonrheumatic aortic (valve) insufficiency
+I37.0,Nonrheumatic pulmonary valve stenosis
+I37.1,Nonrheumatic pulmonary valve insufficiency
+I48.91,Unspecified atrial fibrillation
+I50.9,"Heart failure, unspecified"
+I63.9,"Cerebral infarction, unspecified"
+I82.409,Acute embolism and thrombosis of unspecified deep veins of unspecified lower extremity
+J01.90,"Acute sinusitis, unspecified"
+J02.0,Streptococcal pharyngitis
+J02.8,Acute pharyngitis due to other specified organisms
+J18.9,"Pneumonia, unspecified organism"
+J20.9,"Acute bronchitis, unspecified"
+J30.2,Other seasonal allergic rhinitis
+J30.89,Other allergic rhinitis
+J32.9,"Chronic sinusitis, unspecified"
+J43.9,"Emphysema, unspecified"
+J44.9,"Chronic obstructive pulmonary disease, unspecified"
+J45.909,"Unspecified asthma, uncomplicated"
+J80,Acute respiratory distress syndrome
+J96.00,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia"
+J98.51,Mediastinitis
+K01.1,Impacted teeth
+K02.9,"Dental caries, unspecified"
+K05.10,"Chronic gingivitis, plaque induced"
+K06.9,"Disorder of gingiva and edentulous alveolar ridge, unspecified"
+K08.89,Other specified disorders of teeth and supporting structures
+K08.9,"Disorder of teeth and supporting structures, unspecified"
+K11.7,Disturbances of salivary secretion
+K21.9,Gastro-esophageal reflux disease without esophagitis
+K35.32,"Acute appendicitis with perforation, localized peritonitis, and gangrene, without abscess"
+K37,Unspecified appendicitis
+K62.1,Rectal polyp
+K62.5,Hemorrhage of anus and rectum
+K63.5,Polyp of colon
+K80.20,Calculus of gallbladder without cholecystitis without obstruction
+K81.0,Acute cholecystitis
+L20.9,"Atopic dermatitis, unspecified"
+L25.9,"Unspecified contact dermatitis, unspecified cause"
+L89.92,"Pressure ulcer of unspecified site, stage 2"
+M06.9,"Rheumatoid arthritis, unspecified"
+M16.9,"Osteoarthritis of hip, unspecified"
+M17.9,"Osteoarthritis of knee, unspecified"
+M19.049,"Primary osteoarthritis, unspecified hand"
+M27.0,Developmental disorders of jaws
+M27.3,Alveolitis of jaws
+M32.9,"Systemic lupus erythematosus, unspecified"
+M41.129,"Adolescent idiopathic scoliosis, site unspecified"
+M79.7,Fibromyalgia
+M80.00XA,"Age-related osteoporosis with current pathological fracture, unspecified site, initial encounter for fracture"
+M81.0,Age-related osteoporosis without current pathological fracture
+N12,"Tubulo-interstitial nephritis, not specified as acute or chronic"
+N18.1,"Chronic kidney disease, stage 1"
+N18.2,"Chronic kidney disease, stage 2 (mild)"
+N18.30,"Chronic kidney disease, stage 3 unspecified"
+N18.4,"Chronic kidney disease, stage 4 (severe)"
+N18.6,End stage renal disease
+N30.00,Acute cystitis without hematuria
+N39.0,"Urinary tract infection, site not specified"
+N97.8,Female infertility of other origin
+O00.109,Unspecified tubal pregnancy without intrauterine pregnancy
+O02.0,Blighted ovum and nonhydatidiform mole
+O03.9,Complete or unspecified spontaneous abortion without complication
+O14.90,"Unspecified pre-eclampsia, unspecified trimester"
+O15.00,"Eclampsia complicating pregnancy, unspecified trimester"
+O26.90,"Pregnancy related conditions, unspecified, unspecified trimester"
+O35.10X0,"Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, not applicable or unspecified"
+Q05.9,"Spina bifida, unspecified"
+Q07.00,Arnold-Chiari syndrome without spina bifida or hydrocephalus
+Q38.1,Ankyloglossia
+Q51.9,"Congenital malformation of uterus and cervix, unspecified"
+Q61.4,Renal dysplasia
+Q66.90,"Congenital deformity of feet, unspecified, unspecified foot"
+Q76.0,Spina bifida occulta
+R09.02,Hypoxemia
+R33.9,"Retention of urine, unspecified"
+R57.9,"Shock, unspecified"
+R65.21,Severe sepsis with septic shock
+R73.9,"Hyperglycemia, unspecified"
+R93.1,Abnormal findings on diagnostic imaging of heart and coronary circulation
+S01.81XA,"Laceration without foreign body of other part of head, initial encounter"
+S02.609A,"Fracture of mandible, unspecified, initial encounter for closed fracture"
+S03.00XA,"Dislocation of jaw, unspecified side, initial encounter"
+S06.0X0A,"Concussion without loss of consciousness, initial encounter"
+S06.0X9A,"Concussion with loss of consciousness of unspecified duration, initial encounter"
+S06.0XAA,"Concussion with loss of consciousness status unknown, initial encounter"
+S06.9XAA,"Unspecified intracranial injury with loss of consciousness status unknown, initial encounter"
+S13.4XXA,"Sprain of ligaments of cervical spine, initial encounter"
+S19.9XXA,"Unspecified injury of neck, initial encounter"
+S22.39XA,"Fracture of one rib, unspecified side, initial encounter for closed fracture"
+S26.90XA,"Unspecified injury of heart, unspecified with or without hemopericardium, initial encounter"
+S37.009A,"Unspecified injury of unspecified kidney, initial encounter"
+S42.009A,"Fracture of unspecified part of unspecified clavicle, initial encounter for closed fracture"
+S46.019A,"Strain of muscle(s) and tendon(s) of the rotator cuff of unspecified shoulder, initial encounter"
+S51.819A,"Laceration without foreign body of unspecified forearm, initial encounter"
+S52.90XA,"Unspecified fracture of unspecified forearm, initial encounter for closed fracture"
+S61.419A,"Laceration without foreign body of unspecified hand, initial encounter"
+S62.90XA,"Unspecified fracture of unspecified hand, initial encounter for closed fracture"
+S63.509A,"Unspecified sprain of unspecified wrist, initial encounter"
+S71.119A,"Laceration without foreign body, unspecified thigh, initial encounter"
+S72.009A,"Fracture of unspecified part of neck of unspecified femur, initial encounter for closed fracture"
+S73.006A,"Unspecified dislocation of unspecified hip, initial encounter"
+S76.119A,"Strain of unspecified quadriceps muscle, fascia and tendon, initial encounter"
+S82.899A,"Other fracture of unspecified lower leg, initial encounter for closed fracture"
+S83.209A,"Unspecified tear of unspecified meniscus, current injury, unspecified knee, initial encounter"
+S83.419A,"Sprain of medial collateral ligament of unspecified knee, initial encounter"
+S83.519A,"Sprain of anterior cruciate ligament of unspecified knee, initial encounter"
+S89.90XA,"Unspecified injury of unspecified lower leg, initial encounter"
+S91.319A,"Laceration without foreign body, unspecified foot, initial encounter"
+S93.409A,"Sprain of unspecified ligament of unspecified ankle, initial encounter"
+T14.8XXA,"Other injury of unspecified body region, initial encounter"
+T30.0,"Burn of unspecified body region, unspecified degree"
+T50.901A,"Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional), initial encounter"
+T78.40XA,"Allergy, unspecified, initial encounter"
+T86.12,Kidney transplant failure
+U07.1,COVID-19
+Z30.2,Encounter for sterilization
+Z76.82,Awaiting organ transplant status
+Z95.1,Presence of aortocoronary bypass graft
+Z95.2,Presence of prosthetic heart valve
+Z96.60,Presence of unspecified orthopedic joint implant
